@@ -11,6 +11,7 @@ setup(
     version='0.1',
     url='http://github.com/mitsuhiko/htmldiff',
     py_modules=['htmldiff'],
+    install_requires=['html5lib'],
     description='Diffs arbitrary HTML inline.',
     zip_safe=False,
     classifiers=[
